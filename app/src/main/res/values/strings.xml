@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TruthfulHoroscope</string>
+    <string name="title_activity_fragment_menu">FragmentMenu</string>
+
+
+    <string name="Oven">Овен</string>
+    <string name="Telec">Телец</string>
+    <string name="Bleznec">Близнецы</string>
+    <string name="Rak">Рак</string>
+    <string name="Lev">Лев</string>
+    <string name="Deva">Дева</string>
+    <string name="Ves">Весы</string>
+    <string name="Scorpion">Скорпион</string>
+    <string name="Stelec">Стрелец</string>
+    <string name="Kozerog">Козерог</string>
+    <string name="Vodoley">Водолей</string>
+    <string name="Ribe">Рыбы</string>
+
+    <string name="Istocnik">Источник https://joinfo.ua/goroskop/1218016
+        _Shutochniy-goroskop-7-zhiznennih-printsipov.html</string>
+
+
+    <string name="zodiac_list_title">Правдивый гороскоп - шутка</string>
+    <string name="empty">Нет данных</string>
+
+</resources>
