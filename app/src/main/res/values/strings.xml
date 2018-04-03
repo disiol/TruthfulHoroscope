@@ -28,7 +28,7 @@
     <string name="Stelec">Стрелец</string>
     <string name="Kozerog">Козерог</string>
     <string name="Vodoley">Водолей</string>
-    <string name="Ribe">Рыбы</string>
+    <string name="Fish">Рыбы</string>
 
     <string name="Istocnik">Источник: https://joinfo.ua/goroskop/1218016
         _Shutochniy-goroskop-7-zhiznennih-printsipov.html</string>
@@ -36,5 +36,6 @@
 
     <string name="zodiac_list_title">Правдивый гороскоп - шутка</string>
     <string name="empty">Нет данных</string>
+    <string name="Bik">Бык</string>
 
 </resources>

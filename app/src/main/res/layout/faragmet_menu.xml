@@ -14,73 +14,82 @@
         android:src="@drawable/ic_1k" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButtonVodoley"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/Vodoley"
+        android:src="@drawable/ic_2vod" />
+
+    <ImageButton
+        android:id="@+id/imageButtonFish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/Fish"
+        android:src="@drawable/ic_3r" />
+
+    <ImageButton
+        android:id="@+id/imageButtonVes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/Ves"
+        android:src="@drawable/ic_4v" />
+
+    <ImageButton
+        android:id="@+id/imageButtonKozerog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:contentDescription="@string/Kozerog"
-        android:src="@drawable/ic_1k" />
+        android:src="@drawable/ic_5o" />
+
+
+    <ImageButton
+        android:id="@+id/imageButtonBik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/Bik"
+        android:src="@drawable/ic_6b" />
+
+    <ImageButton
+        android:id="@+id/imageButtonBleznec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/Bleznec"
+        android:src="@drawable/ic_7bb" />
+
+
+    <ImageButton
+        android:id="@+id/imageButtonScorpion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/Scorpion"
+        android:src="@drawable/ic_8s" />
+
+    <ImageButton
+        android:id="@+id/imageButtonRak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/Rak"
+        android:src="@drawable/ic_9r" />
+
+    <ImageButton
+        android:id="@+id/imageLev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/Lev"
+        android:src="@drawable/ic_10l" />
 
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:contentDescription="@string/Kozerog"
-        android:src="@drawable/ic_1k" />
+        android:src="@drawable/ic_11c" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButtonDeva"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/Kozerog"
-        android:src="@drawable/ic_1k" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/Kozerog"
-        android:src="@drawable/ic_1k" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/Kozerog"
-        android:src="@drawable/ic_1k" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/Kozerog"
-        android:src="@drawable/ic_1k" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/Kozerog"
-        android:src="@drawable/ic_1k" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/Kozerog"
-        android:src="@drawable/ic_1k" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/Kozerog"
-        android:src="@drawable/ic_1k" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/Kozerog"
-        android:src="@drawable/ic_1k" />
+        android:contentDescription="@string/Deva"
+        android:src="@drawable/ic_11d" />
 </LinearLayout>
 
