@@ -39,30 +39,77 @@ public class FragmentMenu extends Fragment implements View.OnClickListener {
         imageButtonStelec = (ImageButton) rootView.findViewById(R.id.imageButtonStelec);
         imageButtonDeva = (ImageButton) rootView.findViewById(R.id.imageButtonDeva);
 
-       imageButtonOven.setOnClickListener(this);
-       imageButtonVodoley.setOnClickListener(this);
-       imageButtonFish.setOnClickListener(this);
-       imageButtonVes.setOnClickListener(this);
-       imageButtonKozerog.setOnClickListener(this);
-       imageButtonBik.setOnClickListener(this);
-       imageButtonBleznec.setOnClickListener(this);
-       imageButtonScorpion.setOnClickListener(this);
-       imageButtonRak.setOnClickListener(this);
-       imageButtonStelec.setOnClickListener(this);
-       imageButtonDeva.setOnClickListener(this);
+        imageButtonOven.setOnClickListener(this);
+        imageButtonVodoley.setOnClickListener(this);
+        imageButtonFish.setOnClickListener(this);
+        imageButtonVes.setOnClickListener(this);
+        imageButtonKozerog.setOnClickListener(this);
+        imageButtonBik.setOnClickListener(this);
+        imageButtonBleznec.setOnClickListener(this);
+        imageButtonScorpion.setOnClickListener(this);
+        imageButtonRak.setOnClickListener(this);
+        imageButtonStelec.setOnClickListener(this);
+        imageButtonDeva.setOnClickListener(this);
 
 
         return rootView;
     }
 
-
-    @Override
-    public void onClick(View v) {
-        //TODO dell
-        Toast.makeText(getActivity(), "Вы нажали на кнопку",
-                Toast.LENGTH_SHORT).show();
+    //  на основании идентификатора кнопки создает нужный индекс
+    int translateIdToIndex(int id) {
+        int index = -1;
+        switch (id) {
+            case R.id.imageButtonOven:
+                index = 1;
+                break;
+            case R.id.imageButtonVodoley:
+                index = 2;
+                break;
+            case R.id.imageButtonFish:
+                index = 3;
+                break;
+            case R.id.imageButtonVes:
+                index = 4;
+                break;
+            case R.id.imageButtonKozerog:
+                index = 5;
+                break;
+            case R.id.imageButtonBik:
+                index = 6;
+                break;
+            case R.id.imageButtonScorpion:
+                index = 7;
+                break;
+            case R.id.imageButtonRak:
+                index = 8;
+                break;
+            case R.id.imageButtonStelec:
+                index = 9;
+                break;
+            case R.id.imageButtonDeva:
+                index = 10;
+                break;
+        }
+        return index;
     }
 
-    
+
+    @Override
+    public void onClick(View view) {
+
+        int buttonIndex = translateIdToIndex(view.getId());
+
+        OnSelectedButtonListener listener = (OnSelectedButtonListener) getActivity();
+        listener.onButtonSelected(buttonIndex);
+
+        // TODO Временный код для получения индекса нажатой кнопки
+        Toast.makeText(getActivity(), String.valueOf(buttonIndex),
+                Toast.LENGTH_SHORT).show();
+
+    }
+
+    public interface OnSelectedButtonListener {
+        void onButtonSelected(int buttonIndex);
+    }
 
 }

@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Fragment_text"></activity>
+        <activity android:name=".FragmentText" />
+        <activity android:name=".ActivityToo"></activity>
     </application>
 
 </manifest>

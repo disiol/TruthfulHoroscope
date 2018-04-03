@@ -9,7 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin">
 
     <fragment
-        android:id="@+id/fragment"
+        android:id="@+id/faragmetMenuMain"
         android:name="com.denisimusit.truthfulhoroscope.FragmentMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

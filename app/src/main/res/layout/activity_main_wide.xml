@@ -14,7 +14,7 @@
 
 
     <fragment
-        android:id="@+id/fragment3"
+        android:id="@+id/faragmetMenuMain"
         android:name="com.denisimusit.truthfulhoroscope.FragmentMenu"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -23,7 +23,7 @@
 
     <fragment
         android:id="@+id/fragment4"
-        android:name="com.denisimusit.truthfulhoroscope.Fragment_text"
+        android:name="com.denisimusit.truthfulhoroscope.FragmentText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"

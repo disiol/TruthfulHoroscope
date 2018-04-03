@@ -17,8 +17,10 @@
         android:layout_height="wrap_content"
         android:text="@string/Istocnik" />
 
+
+
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageViewTextFragment"
         android:layout_width="63dp"
         android:layout_height="68dp"
         android:layout_alignParentTop="true"
@@ -29,9 +31,9 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignLeft="@+id/imageViewTextFragment"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/imageView"
+        android:layout_alignStart="@+id/imageViewTextFragment"
         android:layout_marginLeft="-153dp"
         android:layout_marginStart="-153dp"
         android:layout_marginTop="162dp">
@@ -45,10 +47,10 @@
             android:fillViewport="true">
 
             <TextView
+                android:id="@+id/textViewTextFragmentDeskriphon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:isScrollContainer="true"
-                android:text="@string/Oven"
+                android:text="@string/Truth"
                 android:textSize="45px" />
 
         </android.support.v4.widget.NestedScrollView>
