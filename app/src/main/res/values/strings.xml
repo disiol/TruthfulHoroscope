@@ -3,7 +3,21 @@
     <string name="title_activity_fragment_menu">FragmentMenu</string>
 
 
-    <string name="Oven">Овен</string>
+    <string name="Oven">
+        <b>Овен</b> \n
+        1. Сначала сделаю – потом подумаю. \n
+
+2. Там, где остальные тормозят, я жму на газ. \n
+
+3. Самое трудное – выслушать собеседника до конца. \n
+
+4. Делай как я, ведь лучше все равно не сделаешь. \n
+
+5. Приятно получать подарки, но еще приятнее их дарить. \n
+
+6. Я многое прощаю себе, но не другим. \n
+
+7. За первую половину жизни я успеваю сделать так много, что потом не знаю, чем заняться.</string> \n
     <string name="Telec">Телец</string>
     <string name="Bleznec">Близнецы</string>
     <string name="Rak">Рак</string>
@@ -16,7 +30,7 @@
     <string name="Vodoley">Водолей</string>
     <string name="Ribe">Рыбы</string>
 
-    <string name="Istocnik">Источник https://joinfo.ua/goroskop/1218016
+    <string name="Istocnik">Источник: https://joinfo.ua/goroskop/1218016
         _Shutochniy-goroskop-7-zhiznennih-printsipov.html</string>
 
 

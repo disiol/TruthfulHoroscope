@@ -7,6 +7,12 @@
     tools:context=".Fragment_text">
 
 
+    <TextView
+        android:id="@+id/textViewIstocnik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Istocnik" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
