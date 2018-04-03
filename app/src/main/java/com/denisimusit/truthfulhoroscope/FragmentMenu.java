@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
@@ -21,6 +20,7 @@ public class FragmentMenu extends Fragment implements View.OnClickListener {
     private ImageButton imageButtonRak;
     private ImageButton imageButtonStelec;
     private ImageButton imageButtonDeva;
+    private ImageButton imageButtonimageLev;
 
     @Override
     public View onCreateView(LayoutInflater inflater,
@@ -36,6 +36,7 @@ public class FragmentMenu extends Fragment implements View.OnClickListener {
         imageButtonBleznec = (ImageButton) rootView.findViewById(R.id.imageButtonBleznec);
         imageButtonScorpion = (ImageButton) rootView.findViewById(R.id.imageButtonScorpion);
         imageButtonRak = (ImageButton) rootView.findViewById(R.id.imageButtonRak);
+        imageButtonimageLev = (ImageButton) rootView.findViewById(R.id.imageButtonLev);
         imageButtonStelec = (ImageButton) rootView.findViewById(R.id.imageButtonStelec);
         imageButtonDeva = (ImageButton) rootView.findViewById(R.id.imageButtonDeva);
 
@@ -77,17 +78,23 @@ public class FragmentMenu extends Fragment implements View.OnClickListener {
             case R.id.imageButtonBik:
                 index = 6;
                 break;
-            case R.id.imageButtonScorpion:
+                case R.id.imageButtonBleznec:
                 index = 7;
                 break;
-            case R.id.imageButtonRak:
+            case R.id.imageButtonScorpion:
                 index = 8;
                 break;
-            case R.id.imageButtonStelec:
+            case R.id.imageButtonRak:
                 index = 9;
                 break;
-            case R.id.imageButtonDeva:
+                case R.id.imageButtonLev:
                 index = 10;
+                break;
+            case R.id.imageButtonStelec:
+                index = 11;
+                break;
+            case R.id.imageButtonDeva:
+                index = 12;
                 break;
         }
         return index;

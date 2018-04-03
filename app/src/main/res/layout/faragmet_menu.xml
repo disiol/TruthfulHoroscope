@@ -76,7 +76,7 @@
         android:src="@drawable/ic_9r" />
 
     <ImageButton
-        android:id="@+id/imageLev"
+        android:id="@+id/imageButtonLev"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:contentDescription="@string/Lev"

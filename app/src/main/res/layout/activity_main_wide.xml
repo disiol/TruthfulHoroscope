@@ -12,7 +12,6 @@
     android:baselineAligned="false"
     tools:context=".MainActivity" >
 
-
     <fragment
         android:id="@+id/faragmetMenuMain"
         android:name="com.denisimusit.truthfulhoroscope.FragmentMenu"
