@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity implements FragmentMenu.OnSe
         android.app.FragmentManager fragmentManager = getFragmentManager();
 
         // Получаем ссылку на второй фрагмент по ID
-        FragmentText fragmentText = (FragmentText) fragmentManager
-                .findFragmentById(R.id.imageViewTextFragment);
+         FragmentText fragmentText = (FragmentText) fragmentManager
+                .findFragmentById(R.id.MainFragmentText);
 
         // Выводим нужную информацию
         if (fragmentText != null)

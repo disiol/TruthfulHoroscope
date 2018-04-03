@@ -22,7 +22,7 @@
         tools:layout="@layout/faragmet_menu" />
 
     <fragment
-        android:id="@+id/fragment4"
+        android:id="@+id/MainFragmentText"
         android:name="com.denisimusit.truthfulhoroscope.FragmentText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
